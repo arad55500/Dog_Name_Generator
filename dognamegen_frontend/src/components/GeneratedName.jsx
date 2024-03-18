@@ -1,5 +1,5 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
+import Typography from '@mui/material/Typography'; // Import Typography from Material UI
 
 const GeneratedName = ({ name }) => {
   return (
