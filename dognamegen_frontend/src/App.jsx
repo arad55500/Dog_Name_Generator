@@ -3,6 +3,7 @@ import axios from 'axios'; // Make sure to install axios
 import Prompt from './components/Prompt';
 import GeneratedName from './components/GeneratedName';
 import Container from '@mui/material/Container';
+import './App.css';
 
 function App() {
   const [generatedName, setGeneratedName] = useState('');

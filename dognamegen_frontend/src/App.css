@@ -1,42 +1,39 @@
+/* Enhancements for App.css with Material UI */
+
+/* Layout and Spacing Enhancements */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Custom Color Scheme */
+:root {
+  --primary-color: #ff6f61; /* Warm, friendly color for primary actions */
+  --secondary-color: #ffc107; /* Accent color for secondary elements */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiContainer-root {
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Typography Enhancements */
+.MuiTypography-root {
+  margin: 1rem 0;
 }
 
-.card {
-  padding: 2em;
+/* Button Customization */
+.MuiButton-root {
+  margin-top: 1rem;
+  transition: transform 0.3s ease-in-out;
 }
 
-.read-the-docs {
-  color: #888;
+.MuiButton-root:hover {
+  transform: scale(1.05);
+  background-color: var(--primary-color);
+}
+
+/* Additional Visual Elements */
+body {
+  background-image: url('/path/to/your/dog-themed-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
