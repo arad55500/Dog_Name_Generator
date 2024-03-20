@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 import './App.css';
 
 function App() {
-  const [generatedName, setGeneratedName] = useState('');
+  const [generatedName, setGeneratedName] = useState(''); // State to store generated name
 
   const generateName = () => {
     axios.get('http://localhost:3001/generate-name')
