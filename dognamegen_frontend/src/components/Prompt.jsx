@@ -1,6 +1,6 @@
-import React from 'react';
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
+import React from 'react'; // eslint-disable-line
+import Button from '@mui/material/Button'; // Import Button from Material UI
+import Box from '@mui/material/Box'; // Import Box from Material UI
 
 const Prompt = ({ onGenerate }) => {
   return (
